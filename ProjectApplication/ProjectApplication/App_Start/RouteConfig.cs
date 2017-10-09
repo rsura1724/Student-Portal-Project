@@ -13,6 +13,11 @@ namespace ProjectApplication
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            //routes.MapRoute( "Students",
+            //    "{controller}/{action}/{id}",
+            //    new { controller = "Student" , action = "Index"});
+
+
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
